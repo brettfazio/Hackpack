@@ -7,4 +7,5 @@ ADD ----
     Magic Square
     Permutations
     Combinations
+    Bitmask DP (?)
 ----
