@@ -1,6 +1,6 @@
-// Brett Fazio, Kudane's Algoritm, Max range in 1D[]
+// Brett Fazio, Kadane's Algoritm, Max range in 1D[]
 
-public class kudanes {
+public class kadanes {
 
 	public static void main(String[] args) {
 
