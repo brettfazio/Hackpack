@@ -16,7 +16,6 @@ ADD ----
     Law of Tangents
     Pancake sorting
     Max 2D range sum
-    longest increasing subsequence
     Subset sum
     coin change
     traveling salesman
