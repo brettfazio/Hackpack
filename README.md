@@ -14,7 +14,6 @@ ADD ----
     Pancake sorting
     Max 2D range sum
     traveling salesman
-    infinity knapsack
     roman numerals
     postfix conversion
     towers of hanoi
