@@ -10,7 +10,6 @@ ADD ----
     Catalan Numbers
     Fibonacci properties
     Catalan number uses
-    Fast Sieve of Erastothenes
     Modulo arithmetic rules
     Geometry formula
     Law of Tangents
