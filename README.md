@@ -5,7 +5,6 @@ Brett Fazio's Competitive Programming Hackpack
 ADD ----
 
     Pascal's triange
-    Combinations
     Fibonacci properties
     Catalan number uses
     Modulo arithmetic rules
