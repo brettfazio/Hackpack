@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class coinChange {
+public class coinChangeSlow {
 
 	static int denoms, find;
 	static int[] coins, have;
