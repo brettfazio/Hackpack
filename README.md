@@ -13,7 +13,6 @@ ADD ----
     Law of Tangents
     Pancake sorting
     Max 2D range sum
-    coin change
     traveling salesman
     infinity knapsack
     roman numerals
