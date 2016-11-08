@@ -26,5 +26,4 @@ ADD ----
     postfix conversion
     towers of hanoi
     knight moves
-    LCA
 ----
