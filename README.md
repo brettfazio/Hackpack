@@ -15,7 +15,6 @@ ADD ----
     traveling salesman
     roman numerals
     postfix conversion
-    towers of hanoi
     knight moves
     law of cotangents
 ----
