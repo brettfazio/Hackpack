@@ -4,7 +4,6 @@ Brett Fazio's Competitive Programming Hackpack
 
 ADD ----
 
-    Magic Square odd dimensions
     Pascal's triange
     Combinations
     Fibonacci properties
