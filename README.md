@@ -7,7 +7,6 @@ ADD ----
     Magic Square
     Pascal's triange
     Combinations
-    Catalan Numbers
     Fibonacci properties
     Catalan number uses
     Modulo arithmetic rules
