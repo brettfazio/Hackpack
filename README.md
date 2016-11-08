@@ -18,7 +18,6 @@ ADD ----
     Max 2D range sum
     longest increasing subsequence
     Subset sum
-    knapsack
     coin change
     traveling salesman
     infinity knapsack
