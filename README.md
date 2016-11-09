@@ -6,7 +6,7 @@ ADD ----
 
     Pascal's triange
     Fibonacci properties
-    Catalan number uses
+    Catalan number uses (http://oldweb.sbc.edu/sites/default/files/Honors/XiaotongJiang.July20_0.pdf)
     Modulo arithmetic rules
     Geometry formula
     Law of Tangents
