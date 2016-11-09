@@ -14,7 +14,6 @@ ADD ----
     Max 2D range sum
     traveling salesman
     roman numerals
-    postfix conversion
     knight moves
     law of cotangents
 ----
