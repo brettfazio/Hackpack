@@ -17,5 +17,5 @@ ADD ----
     knight moves
     law of cotangents
     Bipartite Graph Check
-    
+    Kruskal's MST
 ----
