@@ -16,4 +16,6 @@ ADD ----
     roman numerals
     knight moves
     law of cotangents
+    Bipartite Graph Check
+    
 ----
