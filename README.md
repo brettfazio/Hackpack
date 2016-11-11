@@ -1,5 +1,5 @@
 # Hackpack
-Brett Fazio's Competitive Programming Hackpack
+Brett Fazio's Competitive Programming Hackpack, last updated, migrated to BitBucket.
 
 
 ADD ----
