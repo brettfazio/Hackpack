@@ -15,7 +15,5 @@ ADD ----
     traveling salesman
     roman numerals
     knight moves
-    law of cotangents
-    Bipartite Graph Check
-    Kruskal's MST
+    https://owlcation.com/stem/Circle-Inscribed-in-Square-Geometry-Problems-Solutions
 ----
