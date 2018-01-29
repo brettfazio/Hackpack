@@ -1,5 +1,7 @@
 // Brett Fazio, basic problem solution template.
+// The "//" you see are called comments, you can write whatever you want after them.
 
+// Ignore this, just use Cntrl+Shift+o
 import java.util.Scanner;
 
 // You will always need this public class, you can call it whatever though.
