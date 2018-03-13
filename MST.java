@@ -34,7 +34,7 @@ public class MST {
 			if(visited[current.node2]) {
 				continue; //Skip if Already visited
 			}
-			
+			 
 			answer += current.weight;
 			visited[current.node2] = true;
 			pq.addAll(node[current.node2]);
