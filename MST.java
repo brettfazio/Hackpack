@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
@@ -11,11 +12,7 @@ public class MST {
 		ArrayList[] node = new ArrayList[n];
 		boolean[] visited = new boolean[n];
 		PriorityQueue<Edge> pq = new PriorityQueue<Edge>();
-		
-		for(int i = 0; i < n; i++) {
-			//Initialize your array of ArrayLists
-			node[i] = new ArrayList<Edge>();
-		}
+		Arrays.fill(node, new ArrayList<Edge>()); //fill your array
 		
 		for(int i = 0; i < m; i++) {
 			int n1 = scan.nextInt()-1;
