@@ -1,5 +1,5 @@
 # Hackpack
-Brett Fazio's Competitive Programming Hackpack, last updated, migrated to BitBucket.
+Timber Creek High School Competitive Programming Hackpack. Created by Brett Fazio.
 
 
 ADD ----
