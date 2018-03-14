@@ -1,7 +1,6 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.PriorityQueue;
-import java.util.Scanner;
+// Minimum Spanning Tree, construct graph
+// with minimum total edge weight.
+import java.util.*;
 
 public class MST {
 
