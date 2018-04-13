@@ -1,7 +1,7 @@
 // Brett Fazio, segment tree
 
 import java.util.*;
-public class segmenttree {
+public class SegmentTree {
 
 	static int[] delta, minval, low, high;
 	
