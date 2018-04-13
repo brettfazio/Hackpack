@@ -1,4 +1,4 @@
-public class dinicFlow {
+public class DinicFlow {
     class Edge {
         int u, v, flow, cap, reverseEdge;
         public Edge(int start, int end, int hold) {
