@@ -1,5 +1,5 @@
 // Brett Fazio Permutations (rearrangements)
-public class permutation {
+public class Permutation {
 
 	static Object[] item, perm;
 	static boolean[] used;
