@@ -1,4 +1,4 @@
-public class areaOfPolygon {
+public class AreaOfPolygon {
 
 	public static void main(String[] args) {
 		
