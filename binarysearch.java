@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class binarysearch {
+public class Binarysearch {
 
 	static int min,max,find;
 	static int[] array;
