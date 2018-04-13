@@ -5,7 +5,7 @@
 
 import java.util.*;
 
-public class biconnected {
+public class Biconnected {
 
 	static boolean used[], art[], bridge[], visited[];
 	static int prenumber[], lowlink[];
