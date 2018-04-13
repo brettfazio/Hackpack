@@ -3,7 +3,7 @@
 
 import java.util.*;
 
-public class dijkstras {
+public class Dijkstras {
 
 	static boolean[] shortSet;
 	static int[][] weight;
