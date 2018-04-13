@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class floyd {
+public class Floyd {
    	public static void main(String[] args) {
    		// By default the min value is any number higher than the max value of the input
    		Scanner sc = new Scanner(System.in);
