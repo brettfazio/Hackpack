@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class subsetsum {
+public class Subsetsum {
 	public static void main(String[] args) {
 		int[] a = {5, -12, 25, 3, -2512, 45, -1};
 		int n = a.length;
