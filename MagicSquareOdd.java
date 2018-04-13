@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class magicSquareOdd {
+public class MagicSquareOdd {
 	public static void main(String[] args) throws Exception {
 		BufferedReader f = new BufferedReader(new InputStreamReader(System.in));
 		Scanner s = new Scanner(System.in);
