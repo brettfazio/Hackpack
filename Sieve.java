@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class sieve {
+public class Sieve {
 	public static void main(String[] args) {
 		int MAX = 10_000_000;
 		boolean[] isPrime = new boolean[MAX];
