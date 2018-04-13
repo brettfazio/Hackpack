@@ -1,6 +1,6 @@
 // Brett Fazio, gcd lcm
 
-public class gcdlcm {
+public class GCDLCM {
 
 	public static int gcd(int a, int b) {
 		while (b> 0) {
