@@ -1,5 +1,5 @@
 //How many leaves on a tree
-public class monkey 
+public class PossibleLeavesOnBracketTree 
 {
 	/*
 	* Code for contest monkey.java
