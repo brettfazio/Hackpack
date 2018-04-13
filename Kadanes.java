@@ -1,6 +1,6 @@
 // Brett Fazio, Kadane's Algoritm, Max range in 1D[]
 
-public class kadanes {
+public class Kadanes {
 
 	public static void main(String[] args) {
 
