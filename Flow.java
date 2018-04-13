@@ -1,7 +1,7 @@
 // brett fazio, flow
 
 import java.util.*;
-public class flow {
+public class Flow {
 	static int source, sink, nodes, edges;
 	static boolean[] seen;
 	static int[][] cap;
