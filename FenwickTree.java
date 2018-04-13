@@ -1,7 +1,7 @@
 // brett fazio, fenwick tree, sum for range
 
 import java.util.*;
-public class fenwicktree {
+public class FenwickTree {
 	static int[] tree;
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
