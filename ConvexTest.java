@@ -7,7 +7,7 @@ import java.util.*;
 // DOES NOT WORK if polygon is self-interesecting
 
 
-public class convexTest {
+public class ConvexTest {
 
 	static final double EPS = 1e-9; // too big/small?
 	
