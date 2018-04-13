@@ -1,9 +1,25 @@
 class LCS {
     static char[] lets = {'a', 'b', 'c', 'd'};
 	public static void main (String[] args){
-        String a = "adbcdabdca", b = "adbcadbbacd";
-	    System.out.println(lcs(a, b));
+		
+        String first = "adbcdabdca", second = "adbcadbbacd";
+        
+		int[][] dp = new int[first.length()+1][second.length()+1];
+		// fast iterative
+		for (int a = 0; a  <=first.length(); a++) {
+			for (int b = 0; b <= second.length(); b++) {
+				if (a == 0 || b == 0) {
+					dp[a][b] = 0;
+				}else if (first.charAt(a-1)==second.charAt(b-1)) {
+					dp[a][b] = dp[a-1][b-1]+1;
+				}else {
+					dp[a][b] = Math.max(dp[a-1][b], dp[a][b-1]);
+				}
+			}
+		}
+        
 	}
+	// slow recursive
     static int lcs(String a, String b){
         int out = 0;
 	    for(char test : lets){
