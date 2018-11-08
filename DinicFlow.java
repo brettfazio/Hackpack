@@ -21,7 +21,7 @@ public class DinicFlow {
 
     ArrayList<Edge>[] adj;
     int n;
-    public dinicFlow(int n) {
+    public DinicFlow(int n) {
         adj = new ArrayList[n];
         this.n = n;
         for(int i = 0; i < n; i++) {
