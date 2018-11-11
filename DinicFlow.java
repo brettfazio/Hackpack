@@ -1,6 +1,35 @@
-public class DinicFlow {
+
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author Andy Phan
+ */
+public class dinicstest {
+    public static void main(String[] args)
+    {
+        DinicFlow test = new DinicFlow(5);
+        test.addEdge(0, 2, 5);
+        test.addEdge(2, 1, 2);
+        test.addEdge(2, 4, 4);
+        test.addEdge(4, 3, 2);
+        test.addEdge(3, 1, 3);
+        System.out.println(test.dinic(0, 1));
+    }
+}
+
+class DinicFlow {
     class Edge {
-        int u, v, flow, cap, reverseEdge;
+        int u, v, flow, cap;
+        Edge reverseEdge;
         public Edge(int start, int end, int hold) {
             u = start;
             v = end;
@@ -11,9 +40,9 @@ public class DinicFlow {
 
     void addEdge(int u, int v, int cap) {
         Edge addU = new Edge(u, v, cap);
-        addU.reverseEdge = adj[v].size();
         Edge addV = new Edge(v, u, 0);
-        addV.reverseEdge = adj[u].size();
+        addU.reverseEdge = addV;
+        addV.reverseEdge = addU;
 
         adj[u].add( addU );
         adj[v].add( addV );
@@ -52,27 +81,29 @@ public class DinicFlow {
         return level[sink] != -1;
     }
 
-    int getFlow (int at, int flow, int sink) {
+    int getFlow (int at, int flow, int sink, boolean[] blocked) {
         if(at == sink) return flow;
 
+        int totalFlow = 0;
         for(Edge e : adj[at]) {
-            if(level[e.v] == level[at]+1 && e.flow < e.cap) {
+            if(!blocked[e.v] && level[e.v] == level[at]+1 && e.flow < e.cap) {
 
                 int curFlow = Math.min(flow, e.cap - e.flow);
-                int findFlow = getFlow(e.v, curFlow, sink);
+                int findFlow = getFlow(e.v, curFlow, sink, blocked);
 
                 if(findFlow > 0) {
                     e.flow += findFlow;
 
-                    adj[e.v].get(e.reverseEdge).flow -= findFlow;
-
-                    return findFlow;
+                    e.reverseEdge.flow -= findFlow;
+                    
+                    totalFlow += findFlow;
                 }
 
             }
         }
+        blocked[at] = true;
 
-        return 0;
+        return totalFlow;
     }
 
     int dinic (int source, int sink) {
@@ -82,7 +113,7 @@ public class DinicFlow {
 
         while(BFS(source, sink)) {
             int addFlow;
-            while( (addFlow = getFlow(source, Integer.MAX_VALUE, sink)) > 0 ) {
+            while( (addFlow = getFlow(source, Integer.MAX_VALUE, sink, new boolean[n])) > 0 ) {
                 total += addFlow;
             }
         }
