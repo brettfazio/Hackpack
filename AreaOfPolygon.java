@@ -9,7 +9,6 @@ public class AreaOfPolygon {
 		
 		double adder = 0;
 		
-        	// Calculate value of shoelace formula 
 	        int j = n - 1; 
         	for (int i = 0; i < n; i++) 
         	{ 
