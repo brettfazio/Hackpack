@@ -1,2 +1,2 @@
 # Hackpack
-Brett Fazio's Competitive Programming Hackpack.
+Brett Fazio and Andy Phan's Competitive Programming Hackpack.
