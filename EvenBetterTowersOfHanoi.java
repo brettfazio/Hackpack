@@ -3,7 +3,7 @@ Don't use the other bad TowersOfHanois.
 They're bad.
 */
 import java.util.Scanner;
-public class BetterTowersOfHanoi {
+public class EvenBetterTowersOfHanoi {
 	static String[][][] dp = new String[1_000_000]['Z'+1]['Z'+1]['Z'+1];
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
